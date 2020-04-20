@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+}
+
+.work{
+  padding: 25px 0 25px 0;
+}
+  .work_block{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+    .work_item{
+	  display: flex;
+	  flex-direction: row;
+      width: 570px;
+      min-height: 335px;
+      margin: 0 auto;
+      overflow: hidden;
+	}
+      .work_zagolovok1{
+        font-size: 64px;
+        margin-left: 100px;
+        color: darkkhaki;
+	  }
+      .work_zagolovok2{
+        font-size: 64px;
+        margin-left: 100px;
+        color: rgb(61, 49, 66);
+	  }
+      .work_zagolovok3{
+        font-size: 64px;
+        text-align: center;
+        color: rgb(5, 73, 5);
+	  }
+      .work_zagolovok4{
+        font-size: 64px;
+        text-align: center;
+        color: rgb(63, 5, 5);
+	  }
+      .work_text{
+		text-align: center;
+		width: 200px;
+	  }
+	  
+      .work_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24px;
+        text-align: center;
+        width: 213px;
+        height: 213px;
+        background: url('../img/work1.jpg') center (center / cover) no-repeat;
+        border-radius: 100%;
+        border: 3px solid darkkhaki;
+        box-shadow: 0 0 7px #666;
+        margin-top: 15px;
+	  }
+      .work_img2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24px;
+        text-align: center;
+        width: 213px;
+        height: 213px;
+        background: url('../img/work2.jpg') center (center / cover) no-repeat;
+        border-radius: 100%;
+        border: 3px solid rgb(61, 49, 66);
+        box-shadow: 0 0 7px #666;
+		margin-top: 15px;
+	}
+
+      .work_img3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24px;
+        text-align: center;
+        width: 213px;
+        height: 213px;
+        background: url('../img/work3.jpg') center (center / cover) no-repeat;
+        border-radius: 100%;
+        border: 3px solid rgb(5, 73, 5);
+        box-shadow: 0 0 7px #666;
+        margin-top: 15px;
+	  }
+      .work_img4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 24px;
+        text-align: center;
+        width: 213px;
+        height: 213px;
+        background: url('../img/work4.jpg') center (center / cover) no-repeat;
+        border-radius: 100%;
+        border: 3px solid rgb(63, 5, 5);
+        box-shadow: 0 0 7px #666;
+		margin-top: 15px;
+	  }
